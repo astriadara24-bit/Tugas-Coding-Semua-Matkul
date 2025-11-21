@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unilever Indonesia</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .bordered {
+        border: solid;
+      }
+      .contoh {
+        height: 50px;
+        background-color: skyblue;
+      }
+
+      .turun {
+        margin-bottom: 10px;
+      }
+      body {
+        font-family: "Segoe UI", sans-serif;
+      }
+      .hero {
+        background-color: #b6fff9;
+        padding: 80px;
+      }
+      .footer {
+        background-color: #003087;
+        color: white;
+        padding: 20px;
+      }
+      .footer a {
+        color: white;
+        margin-right: 15px;
+        font-size: 24px;
+      }
+      .news-title {
+        font-size: 1.1rem;
+      }
+      .news-section {
+        background-color: #f0f0f0;
+        padding: 20px;
+      }
+      .navbar-nav .nav-link {
+        color: #003087 !important;
+        font-weight: 500;
+      }
+      .search-bar {
+        background-color: #00e3dc;
+        color: white;
+        padding: 6px 12px;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+  <body>
+
+
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="img/Logo Unilever.jpeg"
+            alt="Logo"
+            width="40"
+            height="40"
+            class="me-2"
+          />
+          <strong>Unilever</strong>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto me-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Perusahaan Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Brand Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Keberlanjutan</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Berita</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Investor</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Karir</a></li>
+          </ul>
+          <div class="search-bar">
+            <i class="fas fa-search"></i> Situs Pencarian
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Flex dan alignment -->
+    <div class="d-flex justify-content-between bg-info p-3 text-white rounded mb-3">
+      <span>Flex Start</span>
+      <span>Flex End</span>
+    </div>
+    
+    <!-- background -->
+      <div class="bg-primary">
+        warna flat
+      </div>
+      <br>
+      <div class="bg-primary bg-gradient">
+        warna gradient
+      </div>
+    </div>
+
+    <!-- Bordered -->
+    <div class="container-fluid bordered">
+      <div class="row g-0 align-items-start" style="height: 100vh">
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 turun order-4 offset-md-2"
+        >
+          <div class="contoh bordered border-start border-top border border-danger border-5 rounded-pill w-25">25%<br />1</div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 turun order-3 gx-1 gy-1">
+          <div class="contoh rounded-2 text-danger d-block p-2 bg-primary text-white 50%">50% <br />2</div>
+        </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 turun order-2">
+          <div class="contoh">3</div>
+        </div>
+
+    <!-- Hero Section -->
+    <section class="hero text-center" style="height: 300px;">
+      <div class="container">
+        <h1 class="display-5 fw-bold">
+          Selamat datang<br />di Unilever Indonesia
+        </h1>
+      </div>
+    </section>
+
+    <!-- Banner Image -->
+    <div class="text-center mb-4">
+      <img src="img/unilever.avif" alt="Banner" class="img-fluid" />
+    </div>
+
+    <!-- News Section -->
+    <section class="news-section">
+      <div class="container">
+        <h5 class="fw-bold mb-3">Berita terbaru</h5>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <div class="card">
+              <img
+                src="img/penelitian jeruk.avif"
+                class="card-img-top"
+                alt="News 1"
+              />
+              <div class="card-body">
+                <p class="card-text news-title fw-bold">
+                  Apa yang ada di balik pintu rumah wewangian terkemuka dunia
+                  kami?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <div class="card">
+              <img src="img/Dove.avif" class="card-img-top" alt="News 2" />
+              <div class="card-body">
+                <p class="card-text news-title fw-bold">
+                  Rangkaian premium Dove merevolusi perbaikan kerusakan rambut
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between"
+      >
+        <div>
+          <h5>Berhubungan dengan kami</h5>
+          <p class="mb-0">
+            Kami selalu senang terhubung dengan mereka yang memiliki minat yang sama<br /> terhadap masa depan yang berkelanjutan.
+            <br />
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div>
+          <h5>Kontak Kami</h5>
+          <p class="mb-0">
+            Berhubungan dengan Unilever<br />dan tim spesialis atau menemukan
+            kontak<br />di seluruh dunia
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
