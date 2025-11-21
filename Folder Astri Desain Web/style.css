@@ -1,0 +1,35 @@
+/* style.css */
+
+body {
+  background-color: beige;
+  font-family: sans-serif;
+  color: #9a3232;
+  padding: 10px;
+}
+
+h1 {
+  color: rgb(217, 46, 100);
+}
+
+h2 {
+  color: rgb(181, 80, 9);
+}
+
+p {
+  font-size: 15px;
+}
+
+b,
+strong {
+  color: rgb(253, 47, 15);
+}
+
+i {
+  color: rgb(119, 101, 101);
+}
+
+div {
+  background-color: #a9ccf4;
+  padding: 8px;
+  margin-top: 12px;
+}
