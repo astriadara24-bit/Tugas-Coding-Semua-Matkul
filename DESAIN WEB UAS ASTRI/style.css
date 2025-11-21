@@ -1,0 +1,90 @@
+/* Umum */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  font-weight: 500;
+}
+
+/* Hero Section */
+header {
+  background-color: #e6f0f9;
+  color: #004080;
+}
+
+/* Section Judul */
+h2 {
+  color: #004080;
+}
+
+/* Kartu Berita */
+.card-title {
+  font-size: 1.1rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+.badge {
+  font-size: 0.75rem;
+}
+
+/* Footer */
+footer {
+  background-color: #002147; /* Biru tua */
+  color: #fff;
+}
+
+footer h5 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer a {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #d1d1d1;
+  text-decoration: underline;
+}
+
+footer .border-top {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Media Sosial Ikon */
+footer .fs-4 a {
+  transition: transform 0.2s ease;
+}
+
+footer .fs-4 a:hover {
+  transform: scale(1.1);
+  color: #cccccc;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  border-radius: 0;
+}
+
+/* Tombol Tema dan Input */
+.btn-outline-primary {
+  font-size: 0.8rem;
+}
+
+input.form-control-sm {
+  font-size: 0.8rem;
+}

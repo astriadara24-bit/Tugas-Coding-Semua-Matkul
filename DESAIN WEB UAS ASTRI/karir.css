@@ -1,0 +1,193 @@
+/* Reset and font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  padding: 40px;
+}
+
+.hero-section {
+  position: relative;
+  background: linear-gradient(135deg, #007bff, #0b5ed7);
+  color: white;
+  padding: 100px 50px;
+  overflow: hidden;
+}
+
+/* Feedback Tab */
+.feedback-tab {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) rotate(-90deg);
+  transform-origin: left top;
+  background-color: #76e3f0;
+  color: #7b1fa2;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  z-index: 1000;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Main Content */
+.main-content {
+  flex: 2;
+  color: #222;
+}
+
+.main-content h2 {
+  color: #0050d8;
+  font-size: 28px;
+  margin-top: 30px;
+  font-weight: 900;
+}
+
+/* Sidebar Info */
+.side-info {
+  flex: 1;
+}
+
+.side-info h2 {
+  color: #0050d8;
+  font-size: 26px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  color: #111;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.info-box strong {
+  color: #000;
+  font-weight: 900;
+  margin-right: 8px;
+}
+
+.info-box.pink {
+  background-color: #f867c0;
+}
+
+.info-box.teal {
+  background-color: #00e5d1;
+
+  /* Animasi saat scroll */
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+}
+
+body.scrolled .feedback-tab {
+  opacity: 1;
+}
+
+/* === Text Content === */
+.hero-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+/* === Search Box === */
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 600px;
+  height: 50px;
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  padding: 0 15px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-box .divider {
+  width: 1px;
+  height: 70%;
+  background-color: #ccc;
+}
+
+.search-box .location {
+  display: flex;
+  align-items: center;
+  color: #007bff;
+  padding: 0 15px;
+  font-size: 14px;
+}
+
+.search-box .location img {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+
+.search-box .search-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  padding: 0 15px;
+  cursor: pointer;
+  color: #6a1b9a;
+}
+
+/* === Images === */
+.images-box {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.image {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: rotate(-5deg);
+}
+
+.image2 {
+  transform: rotate(5deg);
+}
+
+footer {
+  width: 100%;
+}
+
+footer .container {
+  max-width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+}

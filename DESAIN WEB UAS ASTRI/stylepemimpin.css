@@ -1,0 +1,70 @@
+.header-biru {
+  background-color: #0d96e5;
+}
+
+.global-section {
+  background-color: #001d87;
+  color: white;
+}
+
+.btn-global {
+  background-color: #7be0f6;
+  color: #5e17eb;
+  font-weight: 600;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.btn-global:hover {
+  background-color: #1371e4;
+}
+
+.btn-global .icon {
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.global-image {
+  width: 100%;
+  max-width: 200px;
+}
+
+/* Footer */
+footer {
+  background-color: #002147; /* Biru tua */
+  color: #fff;
+}
+
+footer h5 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer a {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #d1d1d1;
+  text-decoration: underline;
+}
+
+footer .border-top {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+footer .fs-4 a:hover {
+  transform: scale(1.1);
+  color: #cccccc;
+}
+
+/* Media Sosial Ikon */
+footer .fs-4 a {
+  transition: transform 0.2s ease;
+}

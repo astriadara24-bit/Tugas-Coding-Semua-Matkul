@@ -1,0 +1,139 @@
+/* General Styling */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Breadcrumb Area */
+header .breadcrumb {
+  background-color: #e9ecef;
+  padding: 15px 30px;
+  font-size: 14px;
+}
+
+header .breadcrumb a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #8e42c4;
+  color: white;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Card Container */
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+}
+
+.card {
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card a {
+  display: block;
+  padding: 15px;
+  font-weight: bold;
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+/* Presentasi Section */
+.presentasi-section {
+  padding: 30px 15px;
+}
+
+.presentasi-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.presentasi-list {
+  list-style: none;
+  padding: 0;
+}
+
+.presentasi-list li {
+  margin-bottom: 15px;
+}
+
+.presentasi-list a {
+  text-decoration: none;
+  color: purple;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.presentasi-list a:hover {
+  text-decoration: underline;
+  color: #5a00a5;
+}
+
+/* Footer */
+footer {
+  background-color: #0d6efd;
+  color: white;
+}
+
+footer h5 {
+  margin-bottom: 15px;
+}
+
+footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .fs-4 a {
+  font-size: 1.5rem;
+}
+
+footer p {
+  font-size: 14px;
+}

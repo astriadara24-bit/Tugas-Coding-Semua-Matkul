@@ -1,0 +1,131 @@
+body {
+  font-family: "Fredoka", sans-serif;
+  background-color: #f8f9fa;
+}
+
+header {
+  background-color: #0d6efd;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* Konten bagian kiri dan kanan */
+.left-column,
+.right-column {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.left-column {
+  width: 65%;
+  float: left;
+}
+
+.right-column {
+  width: 30%;
+  float: right;
+  text-align: center;
+}
+
+.right-column img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Reset float untuk layout */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Box Strategi 3 Kolom */
+.strategi-wrapper .row {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.strategi-wrapper-full {
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.strategi-wrapper-full .judul {
+  color: #212529; /* ubah dari darkblue ke warna hitam */
+}
+
+@media (max-width: 768px) {
+  .strategi-wrapper-full .row {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.judul {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.judul-sub {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.icon {
+  display: block;
+  margin: 0 auto 15px;
+}
+
+footer {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Footer */
+footer {
+  background-color: #002147; /* Biru tua */
+  color: #fff;
+}
+
+footer h5 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer a {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #d1d1d1;
+  text-decoration: underline;
+}
+
+footer .border-top {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Media Sosial Ikon */
+footer .fs-4 a {
+  transition: transform 0.2s ease;
+}
+
+footer .fs-4 a:hover {
+  transform: scale(1.1);
+  color: #cccccc;
+}

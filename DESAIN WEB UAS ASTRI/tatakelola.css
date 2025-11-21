@@ -1,0 +1,95 @@
+/* =======================
+   Tata Kelola - Unilever
+   Custom CSS
+   ======================= */
+
+/* Navbar */
+.navbar {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+}
+
+.navbar-brand span {
+  font-size: 1.25rem;
+  color: #003366;
+}
+
+.nav-link {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #0056b3;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  border-color: #ddd;
+}
+
+.dropdown-item:hover {
+  background-color: #f2f2f2;
+}
+
+/* Breadcrumb */
+.breadcrumb-nav {
+  background-color: #0056b3;
+  font-size: 0.9rem;
+}
+
+.breadcrumb-nav a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.breadcrumb-nav a:hover {
+  color: #ffe082;
+}
+
+/* Heading */
+h1 {
+  font-size: 2.5rem;
+}
+
+/* Paragraph */
+section p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* Tombol Kembali ke Atas */
+.btn-back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  display: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.btn-back-to-top:hover {
+  background-color: #0056b3;
+}
+
+/* Input pencarian */
+input[type="text"].form-control-sm {
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding-left: 12px;
+}
+
+/* Tombol Tema */
+.btn-outline-primary.btn-sm {
+  border-radius: 20px;
+  padding: 4px 12px;
+}

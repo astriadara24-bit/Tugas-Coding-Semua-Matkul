@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.breadcrumb-bar {
+  background-color: #0029a3;
+}
+
+.brand-section {
+  background-color: #e00074;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.brand-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 2rem;
+}
+
+.brand-images img {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.brand-images img:hover {
+  transform: scale(1.1);
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  font-size: 14px;
+  text-decoration: none;
+  z-index: 10;
+}
+
+.text-purple {
+  color: purple;
+}
